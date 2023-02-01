@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    background-color: lightblue;
+}
+
+.header {
+    background-color: lightblue;
+}
+
+.main {
+    background-color: lightgreen;
+}
+
+.footer {
+    background-color: lightblue;
+    padding: 20px;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 5px;
+    border-color: gray;
+}
+
+.backgroundImg {
+    position: absolute;
+    width:100px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+a {
+    color: red;
+    text-decoration-line: none;
+}
+a:hover {
+    color: rgb(177, 53, 7);
+}
+
+.title {
+    font-family: "Tangerine";
+    Color: darkgreen;
+    font-size: xx-large;
+}
+
+.smallerTitle {
+    font-family: "Redressed";
+    color: darkblue;
+    font-size: x-large;
+}
+
+#button {
+    color: red;
+    background-color: white;
+    padding: 14px 25px;
+}
+
+#button:hover {
+    color: white;
+    background-color: red;
+    padding: 14px 25px;
+}
+
+#bottom {
+    text-align: center;
+}
+
+.card {
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: auto;
+    margin-top: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+  }
+
+
